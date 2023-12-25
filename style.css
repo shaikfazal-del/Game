@@ -1,0 +1,48 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    background-color: #FF6392;
+    text-align: center;
+}
+h1 {
+    background-color: #5AA9E6;
+    color: #FFE45E;
+    line-height: 50px;
+}
+img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.choices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 50px;
+}
+img:hover {
+    cursor: pointer;
+    border: 5px solid #FFE45E;
+}
+.score-board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 3em;
+    color: #FFE45E;
+    margin-top: 10px;
+}
+#user,#comp {
+    color: black;
+}
+#showwinner{
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+    display: inline;
+    font-size: 2em;
+    margin-top: 20px;
+}
